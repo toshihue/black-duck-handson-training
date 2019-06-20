@@ -26,8 +26,9 @@
 * Media Type(ResponseのContent Type)に"internal" を使用している
 
 ## Media Type
-* Media Typeはなにか(V)
-    * Toavoidissues,whensendingorreceivingdata,specifytheBlackDuckmediatypeintheAcceptheader.
+* REST APIとやり取りするデータのフォーマットの固定にするために、設定します。ヘッダのAccept（レスポンスのフォーマット指定） と Content-Type（リクエストのフォーマット指定）にセットします。
+    * 例："application/vnd.blackducksoftware.user-4+json"
+* サポートされているMedia Typeを確認するには、https://<hub_base_url>/api-doc/public.html#_media_types を参照ください。
 
 ## 参考資料
 

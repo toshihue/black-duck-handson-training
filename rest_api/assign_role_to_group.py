@@ -104,7 +104,7 @@ project_assignment_url_path = '/api/usergroups/' + group_id + '/roles'
 
 ### Change here ####
 project_assignment_role_id = '00000001-0001-0001-0001-00000000000b'  # BOM Manager
-project_assignment_project_id = '21ab470a-573a-4ad9-a6ff-19f250b415d7'
+project_assignment_project_id = 'b1bf3f19-9660-442e-9477-c32e04398fcd'
 ####################
 
 project_assignment_request_data = {
