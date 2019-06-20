@@ -104,6 +104,10 @@ venv.bak/
 .mypy_cache/
 
 # output
-./rest_api/output/*
+output/
+
 # desktop.ini
-./**/desktop.ini
+desktop.ini
+
+# config.secret.ini
+config.secret.ini
