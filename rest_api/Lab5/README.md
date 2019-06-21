@@ -9,7 +9,7 @@
 2. 手動で任意のプロジェクトにGlobal RoleとProject Roleを一つずつ与え、"GET /api/usergroups/{userGroupId}/roles (getRolesByUserGroup)"でどのようなデータになるか確認します。
 3. Role IDの一覧は以下のように確認します。
     * Global Role: https://<hub_base_url>/api/roles
-    * Project Role: https://<hub_base_url>/roles?filter=scope%3Aproject
+    * Project Role: https://<hub_base_url>/api/roles?filter=scope%3Aproject
 
 
 ### テンプレート
