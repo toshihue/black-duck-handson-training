@@ -16,7 +16,7 @@
     ```
     pip install requests
     ```
-4. 疎通確認スクリプト[rest_api_test.py](rest_api_test.py)をPythonで実行します。
+4. 疎通確認スクリプト[rest_api_test.py](../rest_api_test.py)をPythonで実行します。
    変数のapi_keyとurlは環境に応じて修正します。
 
     ```
