@@ -123,7 +123,7 @@ project_assignment_project_id = #Code here
 
 
 project_assignment_request_data = {
-    'role': base_url + # Code here ,
+    'role': base_url + '/api/roles/' + project_assignment_role_id,
     'scope': base_url + # Code here
 }
 
