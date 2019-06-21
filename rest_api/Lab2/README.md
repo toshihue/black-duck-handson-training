@@ -56,7 +56,9 @@ bearer_token = rest_api_auth.authenticate(
 user_response_data_format = # Code here
 user_request_data_format = # Code here
 user_request_headers = {
-
+    'Authorization': 'Bearer ' + bearer_token,
+    'Accept': user_response_data_format,
+    'Content-Type': user_request_data_format
 }
 
 url_path = # Code here
