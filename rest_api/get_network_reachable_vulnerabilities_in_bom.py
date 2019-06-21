@@ -47,7 +47,8 @@ if get_component_response.ok:
     get_component_response_json = get_component_response.json()
     # formatted_json = json.dumps(get_component_response_json, indent=2)
     # print(formatted_json)
-    # with open("components.json", mode='w') as f:
+    # os.makedirs('./output/', exist_ok=True)
+    # with open("./output/components.json", mode='w') as f:
     #     f.write(formatted_json)
     get_vulnerability_response_data_format = 'application/vnd.blackducksoftware.vulnerability-4+json'
     get_vulnerability_request_headers = {
@@ -58,7 +59,8 @@ if get_component_response.ok:
     get_component_data = get_component_response.json()
     # formatted_json = json.dumps(get_component_data, indent=2)
     # print(formatted_json)
-    # with open('components.json', mode='w') as f:
+    # os.makedirs('./output/', exist_ok=True)
+    # with open('./output/components.json', mode='w') as f:
     # f.write(formatted_json)
     for get_component_item in get_component_response_json['items']:
         get_vulnerability_component_id = get_component_item['component'].split(
@@ -83,6 +85,7 @@ if get_component_response.ok:
             # formatted_json = json.dumps(
             #     get_vulnerability_response_json, indent=2)
             # print(formatted_json)
+            # os.makedirs('./output/', exist_ok=True)
             # with open("./output/vulns.json", mode='w') as f:
             #     f.write(formatted_json)
 

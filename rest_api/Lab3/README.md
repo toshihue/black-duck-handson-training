@@ -49,6 +49,7 @@ formatted_json = json.dumps(user_response_json, indent=2)
 print(formatted_json)
 
 if user_response.ok:
+    os.makedirs('./output/', exist_ok=True)
     with open("./output/read_user.json", mode='w') as f:
         f.write(formatted_json)
 

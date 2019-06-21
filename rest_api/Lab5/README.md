@@ -99,6 +99,7 @@ if global_assignment_response.ok:
     global_assignment_response_json = global_assignment_response.json()
     formatted_json = json.dumps(global_assignment_response_json, indent=2)
     # print(formatted_json)    
+    os.makedirs('./output/', exist_ok=True)
     with open("./output/global_assignment.json", mode='w') as f:
         f.write(formatted_json)
 else:
@@ -137,7 +138,8 @@ print(datetime.datetime.now(), os.path.basename(
 if project_assignment_response.ok:
     project_assignment_response_json = project_assignment_response.json()
     formatted_json = json.dumps(project_assignment_response_json, indent=2)
-    # print(formatted_json)    
+    # print(formatted_json)
+    os.makedirs('./output/', exist_ok=True)
     with open("./output/project_assignment.json", mode='w') as f:
         f.write(formatted_json)    
 else:

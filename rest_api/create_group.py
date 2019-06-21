@@ -46,6 +46,7 @@ if group_response.ok:
     group_data = group_response.json()
     formatted_json = json.dumps(group_data, indent=2)
     #print(formatted_json)
+    os.makedirs('./output/', exist_ok=True)
     with open("./output/create_group.json", mode='w') as f:
         f.write(formatted_json)    
     print('Created Group URL:', group_data['_meta']['href'])

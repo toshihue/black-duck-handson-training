@@ -47,6 +47,7 @@ if get_component_response.ok:
     get_component_response_json = get_component_response.json()
     formatted_json = json.dumps(get_component_response_json, indent=2)
     # print(formatted_json)
+    os.makedirs('./output/', exist_ok=True)
     with open("./output/components.json", mode='w') as f:
         f.write(formatted_json)
 

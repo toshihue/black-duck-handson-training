@@ -16,8 +16,13 @@
     ```
     pip install requests
     ```
-4. 疎通確認スクリプト[rest_api_test.py](../rest_api_test.py)をPythonで実行します。
-   変数のapi_keyとurlは環境に応じて修正します。
+4. [config.ini](../config.ini)の以下の項目を編集し（クオーテーションは不要）、疎通確認スクリプト[rest_api_test.py](../rest_api_test.py)を、Pythonで実行します。   
+    * base_url
+        * 例：https://127.0.0.1
+    * verify
+        * 自己証明書：false
+    * api_key
+        * 例：xxxxyyyyzzzz==
 
     ```
     python rest_api_test.py
