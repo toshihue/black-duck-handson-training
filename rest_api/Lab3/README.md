@@ -24,7 +24,7 @@ ini_file = configparser.ConfigParser()
 ini_file.read('./config.ini', 'UTF-8')
 
 base_url = ini_file.get('credential', 'base_url')
-verify = bool(ini_file.get('credential', 'verify'))
+verify = ini_file.getboolean('credential', 'verify')
 
 # Authentication
 api_key = ini_file.get('credential', 'api_key')
