@@ -19,7 +19,7 @@
 |[Lab8](Lab8)|脆弱性の個数集計|Counting vulnerabilities in BOM|
 |[Lab9](Lab9)|ネットワーク経由で攻撃可能な脆弱性一覧表示|Getting network reachable vulnerabilities in BOM|
 
-## Supported Endpoints
+## Not Supported Endpoints
 以下のいずれかの条件に合致するエンドポイントはInternal APIであるため、予告なしに変更される可能性があります。そのため原則は使用不可です。
 * Pathに"/internal"を含む
 * Pathが"/v1"から開始する
