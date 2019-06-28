@@ -6,20 +6,20 @@
 * Project/Version -> Component/Version -> Vulnerability のような参照をして一覧化したい
 
 ## トレーニング一覧
-||内容|
-|:-------| :--- |
-|[Lab0](Lab0)|REST APIの疎通確認|
-|[Lab1](Lab1)|認証APIの理解|
-|[Lab2](Lab2)|ユーザの作成|
-|[Lab3](Lab3)|ユーザの読み取り|
-|[Lab4](Lab4)|グループの作成|
-|[Lab5](Lab5)|グループへのロール割当|
-|[Lab6](Lab6)|グループへのユーザ割当|
-|[Lab7](Lab7)|スニペットマッチコンポーネントの手動追加|
-|[Lab8](Lab8)|脆弱性の個数集計|
-|[Lab9](Lab9)|ネットワーク経由で攻撃可能な脆弱性一覧表示|
+||内容|Content|
+|:-------| :--- | :--- |
+|[Lab0](Lab0)|REST APIの疎通確認|Ping to REST API|
+|[Lab1](Lab1)|認証APIの理解|Understanding authentication of REST API|
+|[Lab2](Lab2)|ユーザの作成|Creating user |
+|[Lab3](Lab3)|ユーザの読み取り|Reading user|
+|[Lab4](Lab4)|グループの作成|Creating group|
+|[Lab5](Lab5)|グループへのロール割当|Role assignment to group|
+|[Lab6](Lab6)|グループへのユーザ割当|User assignment to group|
+|[Lab7](Lab7)|スニペットマッチコンポーネントの手動追加|Adding snippet-matched components in BOM|
+|[Lab8](Lab8)|脆弱性の個数集計|Counting vulnerabilities in BOM|
+|[Lab9](Lab9)|ネットワーク経由で攻撃可能な脆弱性一覧表示|Getting network reachable vulnerabilities in BOM|
 
-## サポートされるエンドポイント
+## Supported Endpoints
 以下のいずれかの条件に合致するエンドポイントはInternal APIであるため、予告なしに変更される可能性があります。そのため原則は使用不可です。
 * Pathに"/internal"を含む
 * Pathが"/v1"から開始する
@@ -30,7 +30,7 @@
     * 例："application/vnd.blackducksoftware.user-4+json"
 * サポートされているMedia Typeを確認するには、https://<hub_base_url>/api-doc/public.html#_media_types を参照ください。
 
-## 参考資料
+## Reference materials
 
 |名前|入手場所|内容|
 | :------- | :--- | :--- |
