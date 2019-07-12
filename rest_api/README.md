@@ -15,7 +15,7 @@
 |[Lab4](Lab4)|グループの作成|Creating group|
 |[Lab5](Lab5)|グループへのロール割当|Role assignment to group|
 |[Lab6](Lab6)|グループへのユーザ割当|User assignment to group|
-|[Lab7](Lab7)|スニペットマッチコンポーネントの手動追加|Adding snippet-matched components in BOM|
+|[Lab7](Lab7)|スニペットマッチコンポーネントの手動追加|Adding snippet-matched components as manually added components in BOM|
 |[Lab8](Lab8)|脆弱性の個数集計|Counting vulnerabilities in BOM|
 |[Lab9](Lab9)|ネットワーク経由で攻撃可能な脆弱性一覧表示|Getting network reachable vulnerabilities in BOM|
 
